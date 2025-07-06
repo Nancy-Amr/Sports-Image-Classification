@@ -23,19 +23,21 @@ In this project, you need to implement a CNN model which will be used to classif
 Part II.
 You also need to write the training function (training), and should explore the following
 hyperparameter settings:
- Batch size: Number of examples per training iteration.
- Number of layers: Try using different number of layers in your model and compare the
+1- Batch size: Number of examples per training iteration.
+2- Number of layers: Try using different number of layers in your model and compare the
 performances.
- Dropout is an effective strategy to defend against overfitting. Try using different
+3- Dropout is an effective strategy to defend against overfitting. Try using different
 dropout rate to compare the performances.
- Optimizer: Try using different optimizers such as SGD, Adam, RMSProp.
- Regularization (weight decay): L2 regularization can be specified by setting the
+4- Optimizer: Try using different optimizers such as SGD, Adam, RMSProp.
+5- Regularization (weight decay): L2 regularization can be specified by setting the
 weight_decay parameter in optimizer. Try using different regularization factor and
 check the performance.
- Learning rate, Learning rate scheduler: Learning rate is key hyperparameter in model
+6- Learning rate, Learning rate scheduler: Learning rate is key hyperparameter in model
 training, and you can gradually decreasing the learning rate to further improve your
 model. Try using different learning rate and different learning rate scheduler to compare
 the performance.
+
+
 You could analyze one hyperparameter at a time (i.e. fixing all others to some reasonable
 value), rather than performing grid search. If you use TensorBoard to monitor your training, you
 can directly attach the screenshots of the training curves (accuracy) in your report.
