@@ -20,6 +20,7 @@ In this project, you need to implement a CNN model which will be used to classif
 
 You also need to write the training function (training), and should explore the following
 hyperparameter settings:
+
 1- Batch size: Number of examples per training iteration.
 
 2- Number of layers: Try using different number of layers in your model and compare the
